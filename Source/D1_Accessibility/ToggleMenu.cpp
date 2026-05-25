@@ -501,49 +501,49 @@ void UToggleMenu::ApplyColorBlindnessOption(EColorBlindnessOption Option)
 
 	case EColorBlindnessOption::Deutanopia:
 		SetColorBlindnessMaterialParameters(
-			FLinearColor(0.90f, 1.00f, 1.10f, 1.0f),
-			FLinearColor(1.00f, 0.95f, 1.10f, 1.0f),
-			0.20f,
-			0.05f,
+			FLinearColor(0.90f, 0.82f, 1.18f, 1.0f),
+			FLinearColor(0.96f, 0.88f, 1.18f, 1.0f),
+			0.45f,
+			0.10f,
 			1.00f,
-			1.10f
+			1.18f
 		);
 
 		ApplyTintToPlayerCharacter(
-			FLinearColor(0.30f, 0.85f, 1.00f, 1.0f),
-			0.35f
+			FLinearColor(1.18f, 0.55f, 0.25f, 1.0f),
+			0.65f
 		);
 		break;
 
 	case EColorBlindnessOption::Protanopia:
 		SetColorBlindnessMaterialParameters(
-			FLinearColor(1.10f, 0.95f, 0.85f, 1.0f),
-			FLinearColor(1.10f, 1.00f, 0.95f, 1.0f),
-			0.20f,
-			0.05f,
+			FLinearColor(0.82f, 0.96f, 1.15f, 1.0f),
+			FLinearColor(0.90f, 1.02f, 1.15f, 1.0f),
+			0.45f,
+			0.10f,
 			1.00f,
-			1.10f
+			1.18f
 		);
 
 		ApplyTintToPlayerCharacter(
-			FLinearColor(1.00f, 0.75f, 0.25f, 1.0f),
-			0.35f
+			FLinearColor(1.18f, 0.92f, 0.22f, 1.0f),
+			0.65f
 		);
 		break;
 
 	case EColorBlindnessOption::Tritanopia:
 		SetColorBlindnessMaterialParameters(
-			FLinearColor(1.10f, 0.90f, 1.00f, 1.0f),
-			FLinearColor(1.05f, 0.95f, 1.10f, 1.0f),
-			0.20f,
-			0.05f,
+			FLinearColor(1.16f, 0.86f, 0.58f, 1.0f),
+			FLinearColor(1.14f, 0.92f, 0.76f, 1.0f),
+			0.45f,
+			0.10f,
 			1.00f,
-			1.10f
+			1.18f
 		);
 
 		ApplyTintToPlayerCharacter(
-			FLinearColor(1.00f, 0.35f, 0.85f, 1.0f),
-			0.35f
+			FLinearColor(0.30f, 1.05f, 1.20f, 1.0f),
+			0.65f
 		);
 		break;
 
